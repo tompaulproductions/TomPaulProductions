@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 ]
 
 INSTALLED_APPS += [
-    'app.landing.apps.LandingConfig'
+    'app.home.apps.HomeConfig'
 ]
 
 MIDDLEWARE = [
@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'app.urls'
+ROOT_URLCONF = 'app.system.base_urls'
 
 TEMPLATES = [
     {
